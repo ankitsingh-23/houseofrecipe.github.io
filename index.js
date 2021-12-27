@@ -12,7 +12,7 @@ app.locals.loggedIn;
 app.locals.username;
 var url =
   process.env.MY_DB ||
-  "mongodb+srv://krishna:12345@cluster0.iips1.mongodb.net/Cluster0?retryWrites=true&w=majority";
+  "mongodb+srv://admin:12345@cluster0.pvzci.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 app.use(
   session({
     secret: "express session secret"
